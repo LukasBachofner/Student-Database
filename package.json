@@ -19,6 +19,7 @@
     "@angular/platform-browser-dynamic": "^16.0.0",
     "@angular/router": "^16.0.0",
     "@skiff-org/skiff-crypto": "^1.0.3",
+    "@types/node-fetch": "^2.6.4",
     "crypto-js": "^4.1.1",
     "node-fetch": "^2.6.11",
     "rxjs": "~7.8.0",
