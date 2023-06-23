@@ -1,0 +1,15 @@
+<head>
+        
+    <script src="login.component.ts"></script> 
+</head>
+<div class="div_login" id="vh">
+    
+    <form class="login_form">
+        
+        <img src="../assets/img/User.png" class="img_login">
+        <input type="text" id="username" placeholder="Benutzername oder Email" class="input_field" required size="40"><br>
+        <img src="../assets/img/Key.png" class="img_login">
+        <input type="password" id="password" placeholder="Passwort" class="input_field" required size="40"><br>
+    </form>
+    <button (click)="Backend_API_Login()" class="login_button" >Login</button>
+</div>
