@@ -1,5 +1,6 @@
 .parent-element{
     text-align: center;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -12,9 +13,9 @@
   color: #0d172a;
   cursor: pointer;
   display: inline-block;
-  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 1.1rem;
-  font-weight: 600;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
   line-height: 1;
   padding: 1rem 1.6rem;
   text-align: center;
@@ -40,8 +41,6 @@
   }
 }
 .div_login{
-    
-    
     text-align: center;
     line-height: 200%;
     

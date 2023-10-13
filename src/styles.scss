@@ -1,5 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+@import "node_modules/ag-grid-community/styles/ag-grid.css";
+@import "src/app/timetable/timetable.component.scss";
+@import "node_modules/ag-grid-community/styles/ag-theme-alpine.css";
 body {
     margin: 0;
-    background-color: rgba($color: #333333f6, $alpha: 0.05);
+    background-color: rgba($color: #ffffff, $alpha: 0.05);
+}
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;}
+
+.ag-theme-custom{
+    --ag-grid-size:5px;
+    --ag-header-height: 60px;
+    --ag-header-font-size: 20px;
+    --ag-row-hover-color: rgba(0, 0, 0, 0.1);
+    --ag-borders:none;
+    
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+      
+    height: 500px;
+    
+    margin-top: 10px;
+    --ag-icon-size: 20px;
+    --ag-icon-font-family: agGridAlpine;
 }
